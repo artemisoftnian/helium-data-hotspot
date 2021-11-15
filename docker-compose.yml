@@ -6,7 +6,7 @@ services:
     image: nebraltd/hm-pktfwd:29a7dde35ad8b02c7eab570d325d9124bcb86688
     privileged: true
     volumes:
-      - pktfwdr:/var/pktfwd
+      - 'pktfwdr:/var/pktfwd'
 
   helium-miner:
     build: ./hm-gatewayrs
