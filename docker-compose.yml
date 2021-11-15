@@ -3,13 +3,13 @@ version: '2'
 services:
 
   packet-forwarder:
-    image: nebraltd/hm-pktfwd:29a7dde35ad8b02c7eab570d325d9124bcb86688
+    image: nebraltd/hm-pktfwd:latest
     privileged: true
     volumes:
       - 'pktfwdr:/var/pktfwd'
 
   helium-miner:
-    build: ./hm-gatewayrs
+    image: nebraltd/hm-gatewayrs:latest
     expose:
       - "1680"   
     ports:
