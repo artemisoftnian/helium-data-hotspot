@@ -3,10 +3,10 @@ version: '2'
 services:
 
   packet-forwarder:
-    image: nebraltd/hm-pktfwd:29a7dde35ad8b02c7eab570d325d9124bcb86688
+    build: ./hm-pktfwd
     privileged: true
     volumes:
-      - pktfwdr:/var/pktfwd
+      - 'pktfwdr:/var/pktfwd'
 
   helium-miner:
     build: ./hm-gatewayrs
@@ -84,3 +84,4 @@ volumes:
   miner-log:
   pktfwdr:
 #  dbus-config:
+
