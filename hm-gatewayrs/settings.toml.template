@@ -4,7 +4,7 @@ level = "info"
 timestamp = false
 
 [update]
-platform = "raspi234"
+platform = "raspi01"
 enabled = true
 
 [cache]
