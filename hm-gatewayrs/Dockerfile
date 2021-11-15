@@ -1,4 +1,4 @@
-ARG SYSTEM_TIMEZONE="Europe/London"
+ARG SYSTEM_TIMEZONE="Europe/Berlin"
 
 FROM balenalib/raspberry-pi-debian:buster-run
 
