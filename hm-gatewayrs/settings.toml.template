@@ -1,10 +1,11 @@
-listen = "127.0.0.1:1680"
-
 [log]
 method = "stdio"
 level = "info"
 timestamp = false
 
 [update]
-platform = "raspi01
+platform = "raspi01"
 enabled = true
+
+[cache]
+store = "/var/data/cache"
