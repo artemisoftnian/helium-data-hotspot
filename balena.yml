@@ -199,7 +199,6 @@ data:
   applicationEnvironmentVariables:
     - VARIANT: DIY-RAK2287
     - REGION_OVERRIDE: EU868
-    - FREQ: '868'
   defaultDeviceType: raspberrypi4-64
   supportedDeviceTypes:
     - raspberrypi4-64
