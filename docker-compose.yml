@@ -9,7 +9,7 @@ services:
       - 'pktfwdr:/var/pktfwd'
 
   helium-miner:
-    image: nebraltd/hm-gatewayrs:latest
+    build: ./hm-gatewayrs
     expose:
       - "1680"   
     ports:
